@@ -21,11 +21,12 @@ sach = [i for i in range(64)]
 sachovnica[9] = 9
 #print_chessboard(sachovnica)
 
-def print_chessboard2(height, width):
+def print_chessboard2(board, height, width):
 	for i in range(height * width):
 		print(board[i], end=" ")
 		if i%width == (width - 1):
 			print("")
 x = 5
 t = 5
-print_chessboard2(x,t)
+print_chessboard2(sachovnica, x, t)
+
