@@ -2,6 +2,10 @@
 
 
 def smallest(vstup):
+	if vstup == []:
+		print "Nic si nezadal, vole"
+		return
+
 	vysledok = " "
 	porovnavatel = vstup[0]
 	for u in range(len(vstup)):
@@ -17,8 +21,8 @@ def smallest(vstup):
 	if vysledok == " ":
 		vysledok = porovnavatel
 
-	return(vysledok)
+	return vysledok
 
-
-print(smallest([5,4,8,3]))
+v = []
+print(smallest(v))
 
