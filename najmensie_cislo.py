@@ -23,6 +23,6 @@ def smallest(vstup):
 
 	return vysledok
 
-v = []
+v = [4,8,5,6,3]
 print(smallest(v))
 
